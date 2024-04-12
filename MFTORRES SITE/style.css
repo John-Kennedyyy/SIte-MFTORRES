@@ -78,7 +78,7 @@ footer {
 }
 
 .responsivo {
-    height: 80ph;
+    height: 80vh;
 }
 
 :root {
@@ -171,4 +171,18 @@ footer {
 .footer-logo {
     padding: 10px 3px;
     padding-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
 }
