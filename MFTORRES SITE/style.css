@@ -95,7 +95,8 @@ footer {
 footer {
     letter-spacing: 1px;
     box-sizing: border-box;
-    color: var(--color-neutral-40)
+    color: var(--color-neutral-40);
+    position: fixed;
 }
 
 #footer_content {
